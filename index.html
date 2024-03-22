@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/1ce6f653f8.js" crossorigin="anonymous"></script>
+    <style>
+        /* reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* header */
+        .container {
+            width: 70%;
+            margin: auto;
+        }
+        .top-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+
+        }
+        .search-ber{
+            width: 480px;
+            display: flex;
+            align-items: center;
+        }
+        .search-ber input {
+            border: 1px solid red;
+            width: 100%;
+            padding: 10px;
+        }
+        .search-ber button {
+            background-color: red;
+            border: 1px solid red;
+            color: white;
+            padding: 10px;
+        }
+        .search-ber input:focus {
+            border: 1px solid red;
+            outline: none;
+        }
+        .cart {
+            color: red;
+            border: 2px solid red;
+            padding: 6px;
+        }
+        .navbar {
+            background-color: red;
+            padding: 25px 0;
+        }
+        .navs {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        .navs a {
+            color: white;
+            text-decoration: none;
+        }
+        .hero-img {
+            width: 100%;
+        }
+        .hero-section {
+            padding: 35px 0;
+        }
+        .hero-categories {
+            display: flex;
+            gap: 20px;
+            padding-top: 35px;
+        }
+        .hero-categories img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="top-header">
+                <a href="">
+                    <img src="/cropped-logo-for-web-header-1-230x76.png" alt="">
+                </a>
+                <form class="search-ber">
+                    <input type="search" placeholder="Search here ..">
+                    <button>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+                <a href="" class="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+            </div>
+        </div>
+        
+            <nav class="navbar">
+                <div class="container">
+                <ul class="navs">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Return Policy</a></li>
+                </ul>
+            </div>
+            </nav>
+      
+    </header>
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <div>
+                    <img class="hero-img" src="/combo-offer.gif" alt="">
+                </div>
+
+                <div class="hero-categories">
+                    <a href=""><img src="/cake-ingredeant.jpg" alt=""></a><a href=""><img src="/pizza-ingrdeanr.jpg" alt=""></a><a href=""><img src="sanitary-pads.jpg" alt=""></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
